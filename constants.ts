@@ -20,7 +20,7 @@ export const SERVICES: ServiceItem[] = [
       { question: "How often should my pet have a wellness exam?", answer: "Puppies/kittens: every 3-4 weeks initially. Adults: annually. Seniors: every 6-12 months." },
       { question: "Can you do bloodwork same day?", answer: "Yes, many tests are completed same day with our in-house lab." }
     ],
-    image: "../Image/PetWellness.jpg"
+    image: "/PetWellness.jpg"
   },
   {
     id: "vaccines",
@@ -33,7 +33,7 @@ export const SERVICES: ServiceItem[] = [
       { question: "Are vaccines safe?", answer: "Yes; we screen each pet before vaccinating and discuss risk vs. benefit." },
       { question: "Can I get all shots in one visit?", answer: "Often yes, depending on age and health." }
     ],
-    image: "../Image/VaccinesPet.jpg"
+    image: "/VaccinesPet.jpg"
   },
   {
     id: "dentistry",
@@ -46,7 +46,7 @@ export const SERVICES: ServiceItem[] = [
       { question: "Will my pet be anesthetized?", answer: "Yes, for safe and thorough cleaning. Pre-op testing minimizes risk." },
       { question: "How often should teeth be cleaned?", answer: "Many pets benefit from annual cleanings." }
     ],
-    image: "../Image/Surgery.jpg"
+    image: "/Surgery.jpg"
   },
   {
     id: "surgery",
@@ -59,7 +59,7 @@ export const SERVICES: ServiceItem[] = [
       { question: "How long is my pet in surgery?", answer: "Varies by procedure; expect several hours including recovery." },
       { question: "Will my pet be pain-free?", answer: "We use multimodal pain control to minimize discomfort." }
     ],
-    image: "../Image/AdvanceSurgery.jpg"
+    image: "/AdvanceSurgery.jpg"
   },
   {
     id: "laser",
@@ -72,13 +72,13 @@ export const SERVICES: ServiceItem[] = [
       { question: "Is it safe?", answer: "Yes, it is non-invasive and well-tolerated." },
       { question: "How soon will I see results?", answer: "Some pets show improvement after the first session." }
     ],
-    image: "../Image/Laser.jpg"
+    image: "/Laser.jpg"
   }
 ];
 
 export const TEAM: TeamMember[] = [
-  { name: "Dr. Cindy Orange", role: "Veterinarian (Lead Clinician)", bio: "Leading with compassion and AAHA standards.", image: "../Image/DrOrange.avif" },
-  { name: "Dr. Jennifer Glass", role: "Veterinarian", bio: "Expert in internal medicine and acupuncture.", image: "../Image/DrGlass.avif" },
-  { name: "Dr. Caleb Sutton", role: "Veterinarian", bio: "Specializing in surgery and preventive care.", image: "../Image/DrSutton.avif" },
-  { name: "Ellie", role: "Clinic Comfort Pup", bio: "Staff morale officer and pet soother.", image: "../Image/DrEllie.avif" },
+  { name: "Dr. Cindy Orange", role: "Veterinarian (Lead Clinician)", bio: "Leading with compassion and AAHA standards.", image: "/DrOrange.avif" },
+  { name: "Dr. Jennifer Glass", role: "Veterinarian", bio: "Expert in internal medicine and acupuncture.", image: "/DrGlass.avif" },
+  { name: "Dr. Caleb Sutton", role: "Veterinarian", bio: "Specializing in surgery and preventive care.", image: "/DrSutton.avif" },
+  { name: "Ellie", role: "Clinic Comfort Pup", bio: "Staff morale officer and pet soother.", image: "/DrEllie.avif" },
 ];
