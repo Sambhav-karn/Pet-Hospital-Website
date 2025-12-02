@@ -15,7 +15,7 @@ const Home: React.FC = () => {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="../Image/VeterinarianDog.jpg"
+            src="../Image/veterinarianDog.jpg"
             alt="Veterinarian smiling with a happy dog" 
             className="w-full h-full object-cover object-center"
           />

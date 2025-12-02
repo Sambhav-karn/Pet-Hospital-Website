@@ -59,7 +59,7 @@ export const SERVICES: ServiceItem[] = [
       { question: "How long is my pet in surgery?", answer: "Varies by procedure; expect several hours including recovery." },
       { question: "Will my pet be pain-free?", answer: "We use multimodal pain control to minimize discomfort." }
     ],
-    image: "../Image/AdvanceSurgery.jpg "
+    image: "../Image/AdvanceSurgery.jpg"
   },
   {
     id: "laser",
