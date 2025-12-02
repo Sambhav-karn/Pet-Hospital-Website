@@ -117,7 +117,8 @@ const Home: React.FC = () => {
                   <img 
                     src={service.image} 
                     alt={service.title} 
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                    loading="lazy"
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
                 <div className="p-10">
